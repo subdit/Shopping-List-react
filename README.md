@@ -1,7 +1,7 @@
-# Shopping-List-react
+# Shopping-Lireact
 
 ## This app used React to create a Grocery list.
 
-## useState and useRef for React Hook.
+## useState and useRef f React Hook.
 
-## ## Style with CSS.
+## Style with CSS.
