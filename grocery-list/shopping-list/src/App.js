@@ -1,6 +1,12 @@
 import React from 'react';
+import Header from './Header';
+
 function App() {
-  return <h3>Grocery list</h3>;
+  return (
+    <div className='App'>
+      <Header title='Grocery List' />
+    </div>
+  );
 }
 
 export default App;
