@@ -1,11 +1,11 @@
-# Shopping-Lireact
+# Shopping-List-React
 
 ## This app used React to create a Grocery list.
 
-## Use $npm i react-icons
+## Utilize the react-icons $npm i react-icons
 
-## useState and useRef f React Hook.
+## useState and useRef Hooks.
 
-## Styled with CSS.
+## Styled with CSS. you can also break it down in each component.
 
-Functinality: Your are able to Add item to grocery list, Search item and delete the item list as well.
+Functinality: You will be able to add item to grocery list, Search item and delete the item list as well, utilize local storage to store the list.
