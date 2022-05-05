@@ -7,6 +7,7 @@ const Header = ({ title }) => {
     </header>
   );
 };
+// use Default props to check if we have the api call coming in or not or just check if the Title is there
 Header.defaultProps = {
   title: 'Default Title'
 };
