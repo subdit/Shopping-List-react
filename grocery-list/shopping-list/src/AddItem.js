@@ -18,9 +18,11 @@ const AddItem = ({ newItem, setNewItem, handleSubmit }) => {
         value={newItem} // Put the item in the state
         onChange={e => setNewItem(e.target.value)} // onChange is to set a new item set in the value={newItem}
       ></input>
+
       <button
         type='submit'
         aria-label='Add Item'
+        //using useRef to focus input
         onClick={() => inputRef.current.focus()}>
         <FaPlus />
       </button>
