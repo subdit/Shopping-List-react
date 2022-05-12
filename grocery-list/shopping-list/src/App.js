@@ -83,7 +83,7 @@ function App() {
       />
       <SearchItem search={search} setSearch={setSearch} />
       <main>
-        {isLoading && <p>Loading Items...</p>}
+        {isLoading && <p>Loading Items please wait...</p>}
         {fetchError && <p style={{ color: 'red' }}>{`Error: ${fetchError}`}</p>}
         {!fetchError && !isLoading && (
           <Content
